@@ -4,7 +4,7 @@
 
 class Oscanner < Formula
   homepage ""
-  head "https://gitlab.com/kalilinux/packages/oscanner.git"
+  head "https://gitlab.com/kalilinux/packages/oscanner.git",  :branch => "kali/master"
   
 
   # depends_on "cmake" => :build
